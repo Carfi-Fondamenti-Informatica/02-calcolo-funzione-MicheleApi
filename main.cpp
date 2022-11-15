@@ -8,13 +8,13 @@ int main() {
       z=a*x-b*y;
       cout << "Risultato="<<z<<endl;
    }
-       else if ((x>=0) &&(y<=0)){
+   else if ((x>=0) &&(y<=0)){
           z=a*x*x-b*y;
           cout << "Risultato=" <<z<<endl;
-       }
-       else {
+   }
+   else {
           z=a*x+b*y*y;
           cout<< "Risultato=" <<zz<< endl;
-       }
+   }
    return 0;
 }
